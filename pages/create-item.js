@@ -95,6 +95,7 @@ export default function CreateItem() {
           placeholder="Asset Price in Eth"
           className="mt-2 border rounded p-4"
           onChange={e => updateFormInput({ ...formInput, price: e.target.value })}
+          
         />
         <input
           type="file"
